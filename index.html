@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Home </title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<!----menu--->
+
+<style>
+
+#slider { width: 950px;height: 350px;overflow: hidden;border: 10px solid #fff}
+.slide {width: 500px;height: 500px;float: left;position: relative;}
+#slide-holder {width: 400%;position: relative;left: 0;-webkit-animation: scroller 10s infinite;animation: scroller 10s infinite;}
+@-webkit-keyframes scroller {
+  0% {-webkit-transform: translateX(0);transform: translateX(0);}
+  33% {-webkit-transform: translateX(-400px);transform: translateX(-400px);}
+  66% {-webkit-transform: translateX(-800px);transform: translateX(-800px);}
+  100% {-webkit-transform: translateX(0);transform: translateX(0);}
+}
+
+@keyframes scroller {
+  0% {-webkit-transform: translateX(0);transform: translateX(0);}
+  33% {-webkit-transform: translateX(-400px);transform: translateX(-400px);}
+  66% {-webkit-transform: translateX(-800px);transform: translateX(-800px);}
+  100% {-webkit-transform: translateX(0);transform: translateX(0);}
+}
+body {font-family: sans-serif;}
+#slider {margin: 0 auto;}
+.slide:nth-child(1) {background: #c69;}
+.slide:nth-child(2) {background: wheat;}
+.slide:nth-child(3) {background: #eee;}
+</style>
+<link rel="stylesheet" href="css/superfish.css" media="screen">
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.js"></script>
+<script>
+
+		// initialise plugins
+		jQuery(function(){
+			jQuery('#example').superfish({
+				//useClick: true
+			});
+		});
+
+		</script>
+</head>
+<body>
+
+
+<div class="wrap1">
+<div class="container">
+  <div class="header">
+    <div class="logo">
+      <h1> ONE CONTRAKAN </h1>
+    </div>
+    <div class="menu">
+      <ul class="sf-menu" id="example">
+        <li><a href="index.html">Home</a></li>
+
+        <li class="current"> <a href="pages.html">About</a></li>
+
+        <li> <a href="features.html">Gallery </a></li>
+
+        <li> <a href="planner.html">Wedding Planner </a> </li>
+
+        <li> <a href="contact.html">Contact</a> </li></ul>
+    </div>
+  </div>
+  <div class="clearing"></div>
+</div>
+
+<div id="slider">
+  <div id="slide-holder">
+     
+       <div class="slide"><img src="images/a.jpg" alt="" /></div>
+       <div class="slide"><img src="images/b.jpg" alt="" /></div>
+       <div class="slide"><img src="images/c.jpg" alt="" /></div>
+       <div class="slide"><img src="images/a.jpg" alt="" /></div>
+        
+      
+</div><br>
+
+<div class="clearing"></div>
+</div>
+
+
+
+<!---wrap3--->
+
+<div class="wrap1 ">
+  <div class="container">
+    <div class="title">
+      <h1 style="text-align:center"> Vendor Unggulan </h1>
+    </div>
+    <div class="service mar-right40"> <img src="images/image1.jpg" alt="image" />
+      <div class="shadows"></div>
+      <div class="title">
+        <h2 style="text-align:center"> PENGALAMAN UNIK </h2>
+      </div>
+      <div class="content">
+        <p style="text-align:justify">Di OneContrakan Anda akan merasa di rumah selama pengalaman berburu pakaian Anda. Pengantin OneContrakan kami disambut dengan sampanye, 
+        merasakan musik yang bagus dan gaun yang indah di ruang modern di mana tim kami yang berpengalaman akan membantu Anda untuk menemukan busana yang sempurna. </p><br>
+         <div class="button"><a href="#">More Info </a></div>
+      </div>
+    </div>
+    <div class="service mar-right40"> <img src="images/image2.jpg" alt="image" />
+      <div class="shadows"></div>
+      <div class="title">
+        <h2 style="text-align:center"> LAYANAN RIAS</h2>
+      </div>
+      <div class="content">
+        <p style="text-align:justify">Kami tahu bahwa setiap pengantin ingin terlihat cantik di hari besarnya. Itu sebabnya di OneContrakan,kami menawarkan layanan Rias tambahan yang menjadikan jalan pengantin menjadi pengalaman 
+        yang tak terlupakan. Kami bekerja dengan vendor lokal dan eksternal terpilih yang akan membuat Anda terlihat dan merasa sangat spektakuler</p>
+        <div class="button"><a href="#">More Info </a></div>
+      </div>
+    </div>
+    <div class="service"> <img src="images/image3.jpg" alt="image" />
+      <div class="shadows"></div>
+      <div class="title">
+        <h2 style="text-align:center">ELITE DESIGNERS</h2>
+      </div>
+      <div class="content">
+      <p style="text-align:justify">Designer Project telah tiba di indonesia dengan konsep baru yang segar untuk pengantin modern. Ini adalah salah 
+satu butik pengantin yang menghadirkan pengalaman unik yang dipenuhi dengan berbagai gaun pengantin non-tradisional dan
+aksesoris eksklusif dari perancang kelas atas.</p> <br>
+ <div class="button"><a href="#">More Info </a></div>
+      </div>
+    </div>
+  <div class="clearing"></div>  
+  </div>
+  <div class="clearing"></div>
+</div>
+<!---wrap4--->
+
+
+<!---wrap4--->
+
+<div class="wrap3">
+<div class="container">
+  <div class="footer"> Copyright &copy One Contrakan </div>
+<div class="clearing"></div>
+</div>
+</div>
+<div class="shadows2">
+</div>
+</body>
+</html>
